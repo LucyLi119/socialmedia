@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0px;
+  padding: 0px;
+  font-family:'Gochi Hand';
+  background: url("BG.mp4");
+}
+
+.wrapper{
+  width:1170px;
+  margin:0 auto;
+}
+.logo img{
+  width:500px;
+  float:left;
+  padding-left:5%;
+  padding-top:0%;
+}
+.section{
+  width:100%;
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+}
+.section video{
+  position:absolute;
+  top:0;
+  left:0;
+  object-fit: cover;
+  width: 100%;
+  height:100%;
+  pointer-events: none;
+
+}
